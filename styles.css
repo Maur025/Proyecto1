@@ -1,0 +1,17 @@
+* {
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 80vw;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
