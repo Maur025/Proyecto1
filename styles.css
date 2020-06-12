@@ -1,5 +1,4 @@
 * {
-    background-color:#ffffff;
     margin: 0;
     padding: 0;
 }
@@ -12,17 +11,30 @@ body{
 #header{
     width: 99,9vw;
     height: 34vh;
-    border-style: solid;
-    border-color: blue;
     position: relative;
+    background-color: #6B0E21;
+    opacity: 0.9;
 }
 
 #navar{
     width: 98vw;
     height: 10vh;
-    border-style: solid;
-    border-color: red;
     position: absolute;
+    background-color: #6B0E21;
+    opacity: 0.9;
+    color: #ffffff;
+}
+#navar ul{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    margin-right: 3vw;
+}
+#navar ul li{
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+    font-size: 22px;
 }
 #footer{
     width: 99,9vw;
@@ -36,9 +48,11 @@ body{
     height: 65vh;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #6B0E21;
+    opacity: 0.9;
     border-style: solid;
-    border-color: #000000 1px;
+    border-color: #6B0E21;
+
 }
 
 #container2{
@@ -54,10 +68,21 @@ body{
 #descr{
     width: 38vw;
     height: 40vh;
-    border-style: solid;
-    border-color: rebeccapurple;
     margin-top: 2vh;
     margin-left: 10vw;
+    color: #ffffff;
+}
+#descr label{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    font-size: 29px;
+}
+#descr p{
+    font-size: 19px;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: justify;
 }
 
 #cards{
