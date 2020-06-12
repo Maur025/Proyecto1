@@ -33,7 +33,17 @@ body{
 
 #container{
     width: 99,9vw;
-    height: 150vh;
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #000000 1px;
+}
+
+#container2{
+    width: 99,9vw;
+    height: 85vh;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
@@ -55,7 +65,7 @@ body{
     height: 50vh;
     border-style: solid;
     border-color: rebeccapurple;
-    margin-top: 24vh;
+    margin-top: 10vh;
     margin-left: 10vw;
 }
 
