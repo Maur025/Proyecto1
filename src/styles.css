@@ -12,15 +12,19 @@ body{
     width: 99,9vw;
     height: 34vh;
     position: relative;
-    background-color: #6B0E21;
+    /*background-color: #6B0E21;*/
+    background-image: url('/imagen/webdesigner-2443766_1920.jpg');
+    background-color: none;
     opacity: 0.9;
+    z-index: 8;
 }
 
 #navar{
     width: 98vw;
     height: 10vh;
     position: absolute;
-    background-color: #6B0E21;
+    /*background-color: #6B0E21;*/
+    z-index: 10;
     opacity: 0.9;
     color: #ffffff;
 }
@@ -52,7 +56,7 @@ body{
     opacity: 0.9;
     border-style: solid;
     border-color: #6B0E21;
-
+    z-index: 10;
 }
 
 #container2{
