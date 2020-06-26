@@ -9,22 +9,22 @@ body{
 }
 
 #header{
-    width: 99,9vw;
-    height: 34vh;
-    position: relative;
-    /*background-color: #6B0E21;*/
-    background-image: url('imagen/webdesigner-2443766_1920.jpg');
-    background-color: none;
-    opacity: 0.9;
-    z-index: 8;
+    width: 98.7vw;
+    height: 99.8vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.5;
 }
 
 #navar{
     width: 98vw;
     height: 10vh;
-    position: absolute;
+    padding: 0;
+    margin: 0;
+    z-index: 15;
     /*background-color: #6B0E21;*/
-    z-index: 10;
     opacity: 0.9;
     color: #ffffff;
 }
@@ -37,7 +37,7 @@ body{
 }
 #navar ul li{
     margin-left: 2.5vw;
-    margin-top: 2vh;
+    margin-top: 3vh;
     font-size: 22px;
 }
 #footer{
@@ -48,15 +48,15 @@ body{
 }
 
 #container{
-    width: 99,9vw;
-    height: 65vh;
+    width: 98.7vw;
+    height: 99.8vh;
+    position: relative;
     margin: 0;
     padding: 0;
-    background-color: #6B0E21;
+    background-image: url('imagen/webdesigner-2443766_1920.jpg');
+    background-color: none;
     opacity: 0.9;
-    border-style: solid;
-    border-color: #6B0E21;
-    z-index: 10;
+    z-index: 8;
 }
 
 #container2{
@@ -72,8 +72,10 @@ body{
 #descr{
     width: 38vw;
     height: 40vh;
-    margin-top: 2vh;
+    margin-top: 22vh;
     margin-left: 10vw;
+    z-index: 15;
+    position: relative;
     color: #ffffff;
 }
 #descr label{
