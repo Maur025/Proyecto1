@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&family=Titillium+Web:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -37,8 +38,13 @@ body{
 }
 #navar ul li{
     margin-left: 2.5vw;
-    margin-top: 3vh;
-    font-size: 22px;
+    margin-top: 3vh;    
+}
+#navar ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto','sans-serif';
+    color: #ffffff;
 }
 #footer{
     width: 99,9vw;
@@ -59,16 +65,6 @@ body{
     z-index: 8;
 }
 
-#container2{
-    width: 99,9vw;
-    height: 85vh;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #000000 1px;
-}
-
 #descr{
     width: 38vw;
     height: 40vh;
@@ -82,21 +78,66 @@ body{
     margin-top: 2vh;
     margin-left: 1vw;
     font-size: 29px;
+    font-family: 'Roboto','sans-serif';
 }
 #descr p{
-    font-size: 19px;
+    font-size: 18px;
+    font-weight: 300;
     margin-top: 2vh;
     margin-left: 1vw;
     margin-right: 1vw;
     text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-#cards{
-    width: 78vw;
-    height: 50vh;
-    border-style: solid;
-    border-color: rebeccapurple;
-    margin-top: 10vh;
-    margin-left: 10vw;
+#container2{
+    width: 99.9vw;
+    max-width: 1200px;
+    height: 85vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+#container2 .cards{
+    width: 24vw;
+    height: 64vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-top: 12vh;
+    margin-left: 6%;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+#container2 .cards:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+#container2 .cards img{
+    width: 16vw;
+    height: 24vh;
+}
+#container2 .cards label{
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Roboto','sans-serif';
+}
+#container2 .cards p{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 6%;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify;
+}
+#container2 .cards a{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+}
