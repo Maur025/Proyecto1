@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color:#ffffff;
+    background-color: #E6E6DF;
     margin: 0;
     padding: 0;
 }
@@ -42,9 +42,10 @@ body{
 }
 #navar ul li a{
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     font-family: 'Roboto','sans-serif';
     color: #ffffff;
+    font-weight: 500;
 }
 #footer{
     width: 99,9vw;
@@ -77,11 +78,12 @@ body{
 #descr label{
     margin-top: 2vh;
     margin-left: 1vw;
-    font-size: 29px;
+    font-size: 31px;
     font-family: 'Roboto','sans-serif';
+    font-weight: 500;
 }
 #descr p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     margin-top: 2vh;
     margin-left: 1vw;
@@ -91,9 +93,9 @@ body{
 }
 
 #container2{
-    width: 99.9vw;
+    width: 99vw;
     max-width: 1200px;
-    height: 85vh;
+    height: 86vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -103,11 +105,12 @@ body{
 
 #container2 .cards{
     width: 24vw;
-    height: 64vh;
+    height: 72vh;
     border-radius: 8px;
+    background-color: #ffffff;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
-    margin-top: 12vh;
+    margin-top: 10vh;
     margin-left: 6%;
     text-align: center;
     transition: all 0.25s;
@@ -116,6 +119,7 @@ body{
 #container2 .cards:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+    cursor:pointer;
 }
 
 #container2 .cards img{
@@ -124,20 +128,67 @@ body{
 }
 #container2 .cards label{
     font-weight: 600;
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Roboto','sans-serif';
 }
 #container2 .cards p{
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     margin: 6%;
     font-family: 'Titillium Web', sans-serif;
     text-align: justify;
 }
 #container2 .cards a{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
+}
+.container3{
+    width: 98vw;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.containermax{
+    width: 58vw;
+    height: 68vh;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+}
+.container3 .containermax h3{
+    margin-top:5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 22px;
+    font-weight: 700;
+}
+.container3 .containermax label{
+    margin-top:5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.container3 .containermax p{
+    margin-top:5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.mincont{
+    width: 48vw;
+    height: 68vh;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: orange;
 }
