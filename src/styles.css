@@ -47,6 +47,9 @@ body{
     color: #ffffff;
     font-weight: 500;
 }
+#navar ul li a:hover{
+    color: #7A161D;
+}
 #footer{
     width: 99,9vw;
     height: 15vh;
