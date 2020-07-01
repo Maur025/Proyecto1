@@ -72,14 +72,6 @@ body{
     transform: translateX(-50%),translateY(-50%);
 }
 
-
-#footer{
-    width: 99,9vw;
-    height: 15vh;
-    border-style: solid;
-    border-color: green;
-}
-
 #container{
     width: 98.7vw;
     height: 99.8vh;
@@ -221,4 +213,78 @@ body{
     padding: 0;
     border-style: solid;
     border-color: orange;
+}
+
+#footer{
+    width: 98.7vw;
+    height: 43vh;
+}
+#footer .f1{
+    width: 98.7vw;
+    height: 30vh;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+#footer .f1 .foocon{
+    width: 40vw;
+    height: 30vh;
+}
+#footer .f1 .foocon label{
+    color: #ffffff;
+    font-size: 1.7vw;
+    margin-left: 3vw;
+    position: absolute;
+    font-weight: 600;    
+    margin-top: 5vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+#footer .f1 .foocon p{
+    color: #ffffff;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    position: absolute;
+    margin-top: 8vh;
+    font-weight: 300;
+    font-family: 'Titillium Web', sans-serif;
+}
+#footer .f1 .redes{
+    width: 40vw;
+    height: 30vh;
+}
+#footer .f1 .redes label{
+    color: #ffffff;
+    margin-left: 3vw;
+    font-size: 1.7vw;
+    position: absolute;
+    margin-top: 5vh;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+#footer .f1 .redes ul{
+    margin-left: 3vw;
+    margin-top: 14vh;
+    list-style: none;
+    display: inline-flex;
+}
+#footer .f1 .redes ul li{
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-family: 'Titillium Web', sans-serif;
+    width: 9vw;
+}
+#footer .f2{
+    width: 98.7vw;
+    height: 13vh;
+    background-color: #ffffff;
+}
+#footer .f2 label{
+    font-size: 1.3vw;
+    margin-left: 3vw;
+    position: relative;
+    top: 38%;
+}
+#footer .f2 label span{
+    color: grey;
 }
