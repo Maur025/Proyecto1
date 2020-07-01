@@ -37,19 +37,42 @@ body{
     margin-right: 3vw;
 }
 #navar ul li{
-    margin-left: 2.5vw;
-    margin-top: 3vh;    
+    margin-top: 3vh;  
+    width: 9vw;
+    text-align: center;
+    font-size: 1.9vw;
+    color: #ffffff;
+    border-radius: 2vw;
 }
 #navar ul li a{
     text-decoration: none;
-    font-size: 25px;
     font-family: 'Roboto','sans-serif';
-    color: #ffffff;
+    color: inherit;
     font-weight: 500;
 }
-#navar ul li a:hover{
+#navar ul li:hover{
+    background-color: #ffffff;
+    border-radius: 2vw;
     color: #7A161D;
+    cursor: pointer;
+    font-weight: 800;
+    transition: 0.7s;    
 }
+#navar ul li a:hover{
+    color: inherit;
+}
+
+.especial{
+    background-color: #7A161D;
+    border-radius: 2vw;
+    width: 9vw;
+    height: 6vh;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%),translateY(-50%);
+}
+
+
 #footer{
     width: 99,9vw;
     height: 15vh;
@@ -81,12 +104,12 @@ body{
 #descr label{
     margin-top: 2vh;
     margin-left: 1vw;
-    font-size: 31px;
+    font-size: 2.3vw;
     font-family: 'Roboto','sans-serif';
     font-weight: 500;
 }
 #descr p{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 300;
     margin-top: 2vh;
     margin-left: 1vw;
@@ -133,20 +156,20 @@ body{
 }
 #container2 .cards label{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Roboto','sans-serif';
     color: #7A161D;
 }
 #container2 .cards p{
     padding: 0;
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: 300;
     margin: 6%;
     font-family: 'Titillium Web', sans-serif;
     text-align: justify;
 }
 #container2 .cards a{
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: 300;
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
@@ -170,7 +193,7 @@ body{
     margin-top:5vh;
     margin-left: 5vw;
     margin-right: 5vw;
-    font-size: 28px;
+    font-size: 2vw;
     font-weight: 700;
     color: #7A161D;
 }
@@ -180,7 +203,7 @@ body{
     margin-right: 5vw;
     font-weight: 700;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 .container3 .containermax p{
     margin-top:5vh;
@@ -189,7 +212,7 @@ body{
     text-align: justify;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 .mincont{
     width: 48vw;
